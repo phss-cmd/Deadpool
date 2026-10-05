@@ -1,0 +1,330 @@
+*{
+    margin: 0;
+    width: 1200;
+} 
+
+
+
+.banner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: rgba(87, 56, 56, 0.8);  */
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 0.9;
+    animation: zoom 25s;
+}
+
+ @keyframes zoom{ 
+    0%{
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.foto{ 
+    height: 800px;
+    right: 500px;
+    
+  }  
+
+ header{  
+    width: 100%;
+    height: 900px;
+   
+ }
+
+ div{
+    font-size: 30px;
+}
+
+ .banner{  
+    /* position:absolute;
+    top: 50%;
+    left: 50%; */
+    position: absolute; 
+   
+}
+
+ .banner1 h1{ 
+    color: #ba0000;
+    font-size: 23px; 
+    font-family: 'Rogue Hero', sans-serif;
+    font-weight: 200;
+    text-align: center;
+    /* text-shadow: 0.3rem 0.4rem 2px rgba(0, 0, 0, .4); */
+    line-height: 64px; 
+    margin-bottom: 16px; 
+    opacity: 1;
+    animation: movebanner 4s 0.5s forwards; 
+    position:absolute;
+	right:50%;
+	top:50%;
+	margin-right: 220px;
+	margin-top: -200px;
+    
+} 
+
+ .banner1 button{
+    font-family: 'Rogue Hero', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    background-color: #ba0000; 
+    color: black; 
+    border-radius: 15px; 
+    padding: 20px 150px; 
+    position: absolute;
+    top: 60%;
+    left: 3%;  
+    
+} 
+
+  .banner1 button:hover {
+    background-color:rgb(3, 3, 3)  /*  #380101; */;
+    color: white;
+    border-radius: 15px;
+  } 
+
+  /* ####################   PRIMEIRA PARTE ######################## */
+
+  nav{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    font-family: 'Rogue Hero', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+  
+  }
+  
+  nav ul {
+    text-align: right;
+    margin: auto;
+    padding-top: 4px;
+  }
+  
+  nav ul li{
+    display: inline-block;
+  }
+  
+  nav a{
+    padding: 10px 40px;
+    text-decoration: none;
+    color:  #ba0000; 
+    font-size: 22px;
+  }
+
+
+  .titulo{
+    text-align: center;
+    font-family: 'Rogue Hero', sans-serif;
+    position:relative;
+    color: #ba0000; 
+  }
+
+  .parte1 {
+     /* background-color: rgb(95, 90, 160);  */
+     width: 100%;
+     height: 700px;
+    padding-top:40px;
+ }
+ 
+ .parte1 h3{
+     font-size: 70px;
+     color: rgb(255, 255, 255);
+     text-align: center;
+    
+    
+ }
+ .deadpool2 h3{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+ .deadpool{
+     width: 100%;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     padding: 0 10px;
+ }
+ 
+ .deadpool1{
+     width: 400px;
+     height: 20%;
+     /* float: left; */
+     background-color: #f00024;
+     border-style: solid;
+ }
+ .deadpool2{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+ }
+
+ .deadpool2{
+    width: 400px;
+    height:484px ;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #f00024;
+    border-style: solid;
+    border-color: black;
+    /* float:right */
+}
+
+ .deadpool h3{
+      font-size: 35px;
+      color: rgb(255, 255, 255);
+      
+ }
+ .deadpool p{
+     padding-top: 15px;
+     font-size: 25px;
+     color: rgb(255, 255, 255);
+     
+ }
+
+ .deadpool2 p{
+    padding-top: 15px;
+    font-size: 25px;
+    
+}
+
+ .capa {
+    width: 100%;
+   height: 700px; 
+
+ }
+.capa img{
+  width: 350px;
+  height: 700px;
+}
+.eu{
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.eu h3{
+
+    font-size: 70px;
+    color: #f00024;
+    text-align: center;
+    font-family: 'Rogue Hero', sans-serif;
+}
+
+.eu p{
+  padding-top: 10px;
+  font-size: 25px;
+  font-family: cursive;
+}
+/* ###################      CURIOSIDADES        ######################## */
+
+.parte2{
+   padding-top: 40px;
+   
+   /* background-color: grey; */
+
+}
+
+.curih3{
+  font-family: 'Rogue Hero', sans-serif;
+}
+
+.parte2 h2{
+  margin-bottom: 20px;
+  font-family: 'Rogue Hero', sans-serif;
+}
+
+.curiosidade{
+    
+    width: 100% ;
+    height: auto ;
+    
+    
+}
+
+div{
+  padding: 0px 20px ;
+  
+
+}
+
+p{
+      font-size:30px;
+      font-style: 'Rogue Hero', sans-serif;
+      
+}
+
+.curiosidade section{
+  display: flex;
+  align-items: center;
+}
+
+.curiosidade img{
+  border-radius: 15px ;
+}
+
+/* ########################  PARTE 3 ############################# */
+
+.parte3{
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.filme{
+  padding: 20px;
+  font-family: 'Rogue Hero', sans-serif;
+} 
+
+.dropdown {
+  position: relative;
+  display: inline-block; 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: cursive;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	background-color: #000000;
+	color:#f00024;
+	text-align: center;
+	padding: 10px 0px;
+}
+
+footer p{
+  font-family: 'Rogue Hero', sans-serif;
+}
+
+footer figure img{
+	margin: 20px 5px;
+}
